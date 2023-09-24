@@ -1,0 +1,39 @@
+header {
+    background-color: black;
+    width: 1920px;
+    height: 70px;
+}
+
+nav {
+    width: 964px;
+    height: 70px;
+}
+
+#logo {
+    height: 70px;
+    width: auto;
+    float: left;
+}
+
+nav ul {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    font-family: Impact, sans-serif;
+    display: inline;
+    padding-inline: 1.5em;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
