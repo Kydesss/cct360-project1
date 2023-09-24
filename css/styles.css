@@ -4,29 +4,35 @@ header {
     height: 70px;
 }
 
-nav {
-    width: 964px;
+.header {
+    margin: 0 480px;
     height: 70px;
 }
 
 #logo {
-    height: 70px;
-    width: auto;
+    height: 43px;
+    width: 172px;
     float: left;
+    padding: 13px;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 nav ul {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 27px 0;
+    float: left;
 }
 
 nav ul li {
     text-transform: uppercase;
     font-family: Impact, sans-serif;
     display: inline;
-    padding-inline: 1.5em;
-    font-size: 12px;
+    padding-inline: 20px;
+    font-size: 13px;
     letter-spacing: 1px;
+    float: left;
 }
 
 nav ul li a {
@@ -36,4 +42,30 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+.search-icon {
+    text-transform: uppercase;
+    font-family: "BureauGrotCond Book",impact,"avenir next condensed heavy","Droid Sans",sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+    float: left;
+    display: block;
+    padding: 23px 13px;
+}
+
+.search-icon a {
+    color: white;
+}
+
+.search-icon-inner img {
+    padding: 0;
+    width: 20px;
+    filter: invert(100%);
+    margin-right: 5px;
+}
+
+.search-icon-inner {
+    display: flex;
+    align-items: center;
 }
