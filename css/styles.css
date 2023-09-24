@@ -9,6 +9,36 @@ header {
     height: 70px;
 }
 
+.header-border {
+    width: 1920px;
+    height: 18px;
+    display: flex;
+}
+
+.header-border-1 {
+    width: 480px;
+    height: 18px;
+    background-color: #FFFAAA;
+}
+
+.header-border-2 {
+    width: 480px;
+    height: 18px;
+    background-color: #FFEA30;
+}
+
+.header-border-3 {
+    width: 480px;
+    height: 18px;
+    background-color: #FDD54F;
+}
+
+.header-border-4 {
+    width: 480px;
+    height: 18px;
+    background-color: #E4B429;
+}
+
 #logo {
     height: 43px;
     width: 172px;
