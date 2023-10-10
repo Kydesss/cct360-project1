@@ -1,40 +1,44 @@
-header {
+.header {
     background-color: black;
-    width: 1920px;
-    height: 70px;
+    width: 100%;
+    padding: 0 480px;
+    height: 4.375em;
+    display: flex;
 }
 
-.header {
-    margin: 0 480px;
-    height: 70px;
+.inner-header {
+    display: flex;
+    width: 100%;
+    height: 4.375em;
+    align-items: center;
 }
 
 .header-border {
-    width: 1920px;
+    width: 100%;
     height: 18px;
     display: flex;
 }
 
 .header-border-1 {
-    width: 480px;
+    width: 25%;
     height: 18px;
     background-color: #FFFAAA;
 }
 
 .header-border-2 {
-    width: 480px;
+    width: 25%;
     height: 18px;
     background-color: #FFEA30;
 }
 
 .header-border-3 {
-    width: 480px;
+    width: 25%;
     height: 18px;
     background-color: #FDD54F;
 }
 
 .header-border-4 {
-    width: 480px;
+    width: 25%;
     height: 18px;
     background-color: #E4B429;
 }
@@ -42,27 +46,19 @@ header {
 #logo {
     height: 43px;
     width: 172px;
-    float: left;
-    padding: 13px;
-}
-
-nav a {
-    text-decoration: none;
 }
 
 nav ul {
-    padding: 27px 0;
-    float: left;
+    display: flex;
+    padding: 0 4em;
+    gap: 3em;
 }
 
 nav ul li {
     text-transform: uppercase;
     font-family: Impact, sans-serif;
-    display: inline;
-    padding-inline: 20px;
-    font-size: 13px;
+    font-size: 0.75em;
     letter-spacing: 1px;
-    float: left;
 }
 
 nav ul li a {
@@ -75,27 +71,29 @@ nav ul li a:hover {
 }
 
 .search-icon {
-    text-transform: uppercase;
-    font-family: "BureauGrotCond Book",impact,"avenir next condensed heavy","Droid Sans",sans-serif;
-    letter-spacing: 1px;
-    font-size: 13px;
-    float: left;
-    display: block;
-    padding: 23px 13px;
+    display: flex;
 }
 
 .search-icon a {
-    color: white;
-}
-
-.search-icon-inner img {
-    padding: 0;
-    width: 20px;
-    filter: invert(100%);
-    margin-right: 5px;
+    text-decoration: none;
 }
 
 .search-icon-inner {
     display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.search-icon-inner img {
+    filter: invert(100%);
+    width: 20px;
+    height: 20px;
+}
+
+.search-icon-inner p {
+    color: white;
+    font-family: Impact, sans-serif;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
