@@ -1,16 +1,27 @@
 .header {
     background-color: black;
-    width: 100%;
     padding: 0 480px;
     height: 4.375em;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .inner-header {
     display: flex;
-    width: 100%;
+    width: fit-content;
     height: 4.375em;
     align-items: center;
+    justify-content: center;
+}
+
+.inner-header h2 {
+    color: white;
+    font-family: Impact, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .header-border {
@@ -96,4 +107,15 @@ nav ul li a:hover {
     font-size: 0.75em;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.banner {
+    background-color: #F4A225;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 40%;
+    background-color: #F4A225;
 }
