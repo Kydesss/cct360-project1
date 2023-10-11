@@ -16,6 +16,10 @@
     justify-content: center;
 }
 
+.inner-header a {
+    text-decoration: none;
+}
+
 .inner-header h2 {
     color: white;
     font-family: Impact, sans-serif;
@@ -70,6 +74,7 @@ nav ul li {
     font-family: Impact, sans-serif;
     font-size: 0.75em;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 nav ul li a {
@@ -118,4 +123,74 @@ nav ul li a:hover {
 .banner img {
     width: 40%;
     background-color: #F4A225;
+}
+
+.inner-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.inner-footer-col {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    border-left: 1px solid #4E4E4E;
+    /* line-height: 1.5em; */
+}
+
+.inner-footer-col a {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, sans-serif;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.history-banner img{
+    width: 100%;
+}
+
+.container {
+    margin: 2em 10%;
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.about-header h1 {
+    font-family: "FB Web Use Only";
+    font-size: 2em;
+}
+
+.about-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card img {
+    width: 100%;
+}
+
+.about-card ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    padding: 0 2em;
+    margin: 0 auto;
+    list-style: disc;
+}
+
+.about-card li {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 36px;
 }
