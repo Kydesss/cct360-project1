@@ -165,7 +165,7 @@ nav ul li a:hover {
     flex-direction: column;
     padding: 0 2em;
     border-left: 1px solid #4E4E4E;
-    line-height: 1.5em;
+    gap: 1em;
 }
 
 .inner-footer-col-right {
@@ -176,7 +176,7 @@ nav ul li a:hover {
     text-decoration: none;
     color: white;
     font-family: Impact, sans-serif;
-    font-size: 1em;
+    font-size: 0.75em;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -300,13 +300,27 @@ nav ul li a:hover {
     line-height: 30px;
 }
 
+.content-cards-col {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    gap: 2em;
+}
+
 .content-cards-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2em 0;
+    margin: 0 auto;
+    width: fit-content;
+    gap: 2em;
 }
+
 .content-cards-row a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: black;
     margin: 0 auto;
@@ -324,6 +338,8 @@ nav ul li a:hover {
 }
 
 .content-card:hover {
+    width: 410px;
+    font-size: 1.25em;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
@@ -339,6 +355,7 @@ nav ul li a:hover {
     color: white;
     text-align: center;
     font-family: Impact, Arial, Helvetica, sans-serif;
+    font-size: 1em;
     padding: 1em 0;
 }
 
