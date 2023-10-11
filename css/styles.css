@@ -117,12 +117,38 @@ nav ul li a:hover {
 .banner {
     background-color: #F4A225;
     display: flex;
-    justify-content: center;
 }
 
-.banner img {
-    width: 40%;
-    background-color: #F4A225;
+.banner-img {
+    background-image: url("../img/responsive-web-design-concept-3396758903.jpg");
+    width: 100%;
+    height: 485px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-block {
+    position: relative;
+    top: 30%;
+}
+
+.news-h2 {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* color: #25A9FB; */
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 1em 1em;
+    font-family: "FB Web Use Only";
+    font-weight: normal;
+    width: 100%;
+    font-size: 2em;
+    box-sizing: border-box;
 }
 
 .inner-footer {
@@ -160,7 +186,8 @@ nav ul li a:hover {
 .about-header {
     display: flex;
     align-items: center;
-    padding: 2em 0;
+    padding: 2em 1em;
+    /* background: #eee; */
 }
 
 .about-header h1 {
@@ -192,5 +219,74 @@ nav ul li a:hover {
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    line-height: 36px;
+    line-height: 30px;
+}
+
+.content-cards-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+.content-cards-row a {
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.content-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.content-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content-card p {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Impact, Arial, Helvetica, sans-serif;
+    padding: 1em 0;
+}
+
+.history-content-card img {
+    object-position: top;
+}
+
+.content-cards-see-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-cards-see-more a {
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1em 2em;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.content-cards-see-more a:hover {
+    background-color: black;
+    color: white;
 }
