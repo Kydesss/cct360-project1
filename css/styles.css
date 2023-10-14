@@ -571,6 +571,7 @@ nav ul li a:hover {
     align-items: center;
     margin-bottom: 1em;
     border-bottom: 1px solid #eee;
+    width: 100%;
 }
 
 .process-header h1 {
@@ -585,7 +586,6 @@ nav ul li a:hover {
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-    padding: 1em;
 }
 
 .process-picture {
@@ -597,13 +597,13 @@ nav ul li a:hover {
 }
 
 .process-picture img {
-    width: 50%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
+    padding: 1em;
 }
 .process-body {
     padding: 2em;
-    width: 100%;
     margin: 0 auto;
 }
 
