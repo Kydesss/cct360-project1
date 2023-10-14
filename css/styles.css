@@ -564,3 +564,59 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
 }
+
+.process-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+.process-header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.process-body-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.process-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.process-picture img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.process-body {
+    padding: 2em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.process-body p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    line-height: 30px;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+}
+
+.process-body-row {
+    display: flex;
+    justify-content: center;
+}
