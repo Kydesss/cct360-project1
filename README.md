@@ -1,1 +1,3 @@
 # cct360-project1
+
+A project aimed at building skills in organizing, structuring, designing, and coding web content for a professional website. The project involves choosing a Wikipedia article as the base content, developing a content strategy and information architecture, and modeling and rebuilding the front-end of a major Canadian university or college website. The project also includes creating image and video assets, coding and programming the website using HTML/CSS, and submitting a finalized website along with references and a process page. Evaluation criteria include the quality of the process presentation, digital media production, and the matched model website.
