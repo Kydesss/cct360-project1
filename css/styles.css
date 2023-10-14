@@ -584,7 +584,7 @@ nav ul li a:hover {
 .process-body-content {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
 }
 
@@ -597,7 +597,7 @@ nav ul li a:hover {
 }
 
 .process-picture img {
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     padding: 1em;
