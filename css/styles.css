@@ -606,6 +606,26 @@ nav ul li a:hover {
 .process-body {
     padding: 2em;
     margin: 0 auto;
+    text-align: center;
+}
+
+.process-body a {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.25em;
+    line-height: 30px;
+    text-align: center;
+    width: auto;
+    margin: 0 1em;
+}
+
+.process-body h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    line-height: 30px;
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    padding: 1em 0;
 }
 
 .process-body p {
