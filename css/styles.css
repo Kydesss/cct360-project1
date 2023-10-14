@@ -5,10 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
-.body a{
+.body a {
     text-decoration: none;
 }
 
@@ -41,25 +40,25 @@
 .header-border-1 {
     width: 25%;
     height: 18px;
-    background-color: #FFFAAA;
+    background-color: #fffaaa;
 }
 
 .header-border-2 {
     width: 25%;
     height: 18px;
-    background-color: #FFEA30;
+    background-color: #ffea30;
 }
 
 .header-border-3 {
     width: 25%;
     height: 18px;
-    background-color: #FDD54F;
+    background-color: #fdd54f;
 }
 
 .header-border-4 {
     width: 25%;
     height: 18px;
-    background-color: #E4B429;
+    background-color: #e4b429;
 }
 
 #logo {
@@ -119,7 +118,7 @@ nav ul li a:hover {
 }
 
 .banner {
-    background-color: #F4A225;
+    background-color: #f4a225;
     display: flex;
     margin-bottom: 1em;
 }
@@ -168,12 +167,12 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     padding: 0 2em;
-    border-left: 1px solid #4E4E4E;
+    border-left: 1px solid #4e4e4e;
     gap: 1em;
 }
 
 .inner-footer-col-right {
-    border-right: 1px solid #4E4E4E;
+    border-right: 1px solid #4e4e4e;
 }
 
 .inner-footer-col a {
@@ -210,7 +209,7 @@ nav ul li a:hover {
 }
 
 .inner-footer-socials a:hover {
-    background-color: #FFEA30;
+    background-color: #ffea30;
 }
 
 .inner-footer-socials img {
@@ -224,7 +223,7 @@ nav ul li a:hover {
 
 .inner-footer-socials img:hover {
     filter: invert(0%);
-    background-color: #FFEA30;
+    background-color: #ffea30;
 }
 
 .inner-footer-social-media-tag {
@@ -254,8 +253,8 @@ nav ul li a:hover {
 
 .history-banner {
     width: 100%;
-    background-color: #A5DFE1;
-    background-color: #1D355B;
+    background-color: #a5dfe1;
+    background-color: #1d355b;
     padding-bottom: 2em;
 }
 
@@ -264,8 +263,8 @@ nav ul li a:hover {
 }
 
 .about-content-section {
-    background: #EEE;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background: #eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .about-header {
@@ -290,7 +289,7 @@ nav ul li a:hover {
 
 .about-card img {
     width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .about-card ul {
@@ -343,14 +342,14 @@ nav ul li a:hover {
     align-items: center;
     margin: 0 auto;
     width: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     transition: 0.3s;
 }
 
 .content-card:hover {
     width: 410px;
     font-size: 1.25em;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
 
 .content-card img {
@@ -418,7 +417,7 @@ nav ul li a:hover {
 }
 
 .body-image p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1em;
     padding: 0.5em;
     text-align: center;
@@ -434,7 +433,7 @@ nav ul li a:hover {
 }
 
 .body-text p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.25em;
     line-height: 30px;
     text-align: center;
@@ -443,12 +442,12 @@ nav ul li a:hover {
 }
 
 .body-grey {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     width: 100%;
 }
 
 .body-header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.5em;
     padding: 1em;
     text-align: center;
@@ -475,7 +474,7 @@ nav ul li a:hover {
 }
 
 .subtitle-header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 2em;
     padding: 1em 0;
     text-align: center;
@@ -493,7 +492,7 @@ nav ul li a:hover {
     font-size: 3em;
     text-align: center;
     padding: 1em;
-    border-bottom: 1px solid #4E4E4E;
+    border-bottom: 1px solid #4e4e4e;
     width: 50%;
     margin: 0 auto;
     color: white;
@@ -511,7 +510,7 @@ nav ul li a:hover {
 }
 
 .see-also-col ul li {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1em;
     padding: 0.5em;
     list-style: disc;
@@ -537,10 +536,11 @@ nav ul li a:hover {
 
 .utility-links a {
     width: 100%;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     text-decoration: none;
     color: black;
-    font-family: "BureauGrotCond Book","Barlow Condensed",impact,"avenir next condensed heavy","Droid Sans",sans-serif;
+    font-family: "BureauGrotCond Book", "Barlow Condensed", impact,
+        "avenir next condensed heavy", "Droid Sans", sans-serif;
     font-weight: 400;
     padding: 1em;
     transition: 0.3s;
@@ -575,7 +575,7 @@ nav ul li a:hover {
 }
 
 .process-header h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 2em;
     padding: 1em 0;
     text-align: center;
@@ -609,7 +609,7 @@ nav ul li a:hover {
 }
 
 .process-body p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.25em;
     line-height: 30px;
     text-align: center;
