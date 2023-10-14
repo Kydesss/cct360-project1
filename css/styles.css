@@ -476,7 +476,6 @@ nav ul li a:hover {
 .see-also {
     border-top: 1px solid #eee;
     background-color: #686868;
-    margin-top: 2em;
 }
 
 .see-also h1 {
@@ -516,4 +515,30 @@ nav ul li a:hover {
 
 .see-also-col ul li a:hover {
     text-decoration: underline;
+}
+
+.utility-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+.utility-links a {
+    width: 100%;
+    background-color: #FAFAFA;
+    text-decoration: none;
+    color: black;
+    font-family: "BureauGrotCond Book","Barlow Condensed",impact,"avenir next condensed heavy","Droid Sans",sans-serif;
+    font-weight: 400;
+    padding: 1em;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.utility-links a:hover {
+    background-color: #4e4e4e;
+    color: white;
 }
