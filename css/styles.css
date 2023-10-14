@@ -393,8 +393,8 @@ nav ul li a:hover {
 }
 
 .content-cards-see-more a:hover {
-    background-color: black;
-    color: white;
+    background-color: #eee;
+    border: 0;
 }
 /* 
 .body-center-content {
