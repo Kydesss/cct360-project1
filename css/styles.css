@@ -386,15 +386,16 @@ nav ul li a:hover {
     background-color: black;
     color: white;
 }
-
+/* 
 .body-center-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .body-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2em 0;
@@ -413,6 +414,11 @@ nav ul li a:hover {
     text-align: center;
     margin: 0 auto;
 }
+
+#vertical-image {
+    width: 30%;
+}
+
 .body-text {
     padding: 2em;
 }
@@ -421,7 +427,7 @@ nav ul li a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.25em;
     line-height: 30px;
-    /* text-align: center; */
+    text-align: center;
     width: auto;
     margin: 0 auto;
 }
@@ -439,6 +445,13 @@ nav ul li a:hover {
     margin: 0 auto;
     border-bottom: 1px solid #eee;
     width: 70%;
+}
+
+.body-grid {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .title-header {
@@ -462,18 +475,20 @@ nav ul li a:hover {
 
 .see-also {
     border-top: 1px solid #eee;
-    background-color: #FAFAFA;
-    margin-top: 4em;
+    background-color: #686868;
+    margin-top: 2em;
 }
 
 .see-also h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Impact, Arial, Helvetica, sans-serif;
     font-size: 3em;
     text-align: center;
     padding: 1em;
     border-bottom: 1px solid #4E4E4E;
     width: 50%;
     margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
 }
 
 .see-also-links {
@@ -491,4 +506,14 @@ nav ul li a:hover {
     font-size: 1em;
     padding: 0.5em;
     list-style: disc;
+    color: white;
+}
+
+.see-also-col ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.see-also-col ul li a:hover {
+    text-decoration: underline;
 }
